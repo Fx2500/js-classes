@@ -67,7 +67,7 @@ const orderWithTie = colaboradores.sort((a, b) => {
 // 2a. Print out the sum of all installments:
 const totalValue = installments.reduce((acc, inst) => {
   return acc + inst.value;
-}, 0);
+}, 0).toFixed(2);
 
 // 2b.Create an array that splits paid and due installments in the following format:
 //{total_paid: xx, total_open: xx}
@@ -105,7 +105,7 @@ console.log(orderByField);
 console.log("Ex 1d");
 console.log(orderWithTie);
 console.log("Ex 2a");
-console.log(`$${totalValue.toFixed(2)}`);
+console.log(`$${totalValue}`);
 console.log("Ex 2b");
 console.log(instInfo);
 console.log("Ex 2c");
