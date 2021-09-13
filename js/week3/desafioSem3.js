@@ -62,7 +62,7 @@ const orderWithTie = colaboradores.sort((a, b) => {
     return exC(a.cargo) - exC(b.cargo);
   } else return a.idade - b.idade;
 });
-
+//------------------------------------------------------------------------------
 // 2.
 // 2a. Print out the sum of all installments:
 const totalValue = installments.reduce((acc, inst) => {
@@ -96,19 +96,11 @@ const orderedInsts = installments.sort((a, b) => {
 ////////////////////////////////////////////////////////////////////////////////
 //RESULTS
 ////////////////////////////////////////////////////////////////////////////////
-console.log("Ex 1a");
-console.log(ammountPerField);
-console.log("Ex 1b");
-console.log(orderByAge);
-console.log("Ex 1c");
-console.log(orderByField);
-console.log("Ex 1d");
-console.log(orderWithTie);
-console.log("Ex 2a");
-console.log(`$${totalValue}`);
-console.log("Ex 2b");
-console.log(instInfo);
-console.log("Ex 2c");
-console.log(orderByValue);
-console.log("Ex 2d");
-console.log(orderedInsts);
+console.log('Ex 1a. \n', ammountPerField,);
+console.log('\nEx 1b. \n', orderByAge);
+console.log('\nEx 1c. \n', orderByField);
+console.log('\nEx 1d. \n', orderWithTie);
+console.log('\nEx 2a. \n', `$${totalValue}`);
+console.log('\nEx 2b. \n', instInfo);
+console.log('\nEx 2c. \n', orderByValue);
+console.log('\nEx 2d. \n', orderedInsts);
