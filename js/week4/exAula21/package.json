@@ -1,0 +1,15 @@
+{
+  "name": "exAula21",
+  "version": "1.0.0",
+  "description": "Package manager",
+  "main": "index.js",
+  "author": "Douglas",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.23.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
